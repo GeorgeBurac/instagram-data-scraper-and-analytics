@@ -1,6 +1,7 @@
 import time
 import selenium
 from selenium import webdriver
+
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import sys
 #import bs4
@@ -65,8 +66,7 @@ class Download():
 def main():
     #account_name, account_password = sys.argv[1:]
     
-    user = "lukeneedshelp"
-    password = "luke19940926help"
+    
     account = Account(user, password)
     path = "C:\\Users\\George Burac\\Desktop\\chromedriver.exe"
     test = Login(path)
